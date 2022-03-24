@@ -1,0 +1,69 @@
+body {
+    background-size: cover;
+    background-color: rgb(59, 175, 175);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.container{
+    background-color: black;
+    
+    color: bisque;
+    
+    text-align: center;
+    margin: 0%;
+    Padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ 
+}
+.card img{
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 10%;
+       
+}
+img{
+    width:40%
+}
+
+.a-badge {
+   position: absolute;
+   background: rgb(243, 148, 60);
+   height:2rem;
+    top:6.5rem;
+    left:4.5rem;
+    width:2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-style: oblique;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+
+}
+p2 { 
+    color: blue;
+    display: block;
+    position:relative;
+    left:4em;
+}
+p3{
+    position: relative;
+    text-align: center;
+    left: 6em;  
+
+}
+p4{
+    position: relative;
+    text-align: center;
+    left: 6em;
+    text-decoration:line-through;
+}
+
+button {
+    display: block;
+    position: relative;
+    left: 7em;
+
+}

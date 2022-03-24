@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+  background-image: url(./assets1/R.jfif)
+
+}
+nav {
+    background-color: rgb(107, 97, 97);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+    outline-width:1px; 
+    outline-color:  antiquewhite;
+    border-radius: 20%;
+}
+.bar{
+    float: right;
+    margin-bottom: 5px;
+    margin-right: 40px;
+    text-size-adjust: 5px;
+    color: antiquewhite;
+}
+
+footer{
+    position: absolute;
+    background-color: antiquewhite;
+    bottom: 0%;    
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.a1{
+    color: black;
+    margin-left:47%;
+}
+.bar:hover{
+    color: brown;
+}
+.a1:hover{
+    color: brown;
+}
+ul{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 40%;
+    list-style-type: none ;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 100px;
+}
+.b1{
+    color: black;
+}
+.b1:hover {
+  color: brown;
+}

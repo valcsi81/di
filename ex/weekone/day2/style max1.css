@@ -1,0 +1,94 @@
+body{
+
+    background-image: url(./assets1/avengers-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0rem 2rem;
+    margin: 0%;
+}
+nav{
+
+    background-color:rgb(56, 45, 45);
+    padding-top: .8rem;
+    padding-bottom: 2rem;
+    
+
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 2rem;
+    border-radius: 20%;
+}
+li{
+    display: inline;
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-right: 1rem;
+   
+}
+.home{  
+    color: wheat;
+    font-weight: bold;  
+}
+.home:hover{
+    color:brown;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    margin-left: 45%;
+   
+}
+.a1{
+    color: bisque;
+}
+.a1:hover{
+    color: brown;
+}
+h2 {
+    color: antiquewhite;
+    margin-left: 50px;
+    margin-top: 0.5px;
+    font-size: 5em;  
+    font-family:sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+
+}
+h2::first-letter {
+    font-size: 2.5em;
+    color: #ff0000;
+    text-shadow: 300px;
+    
+
+}
+h3{
+    color: antiquewhite;
+    margin-left: 150px;   
+    font-size: 5em;
+    font-family:sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+    line-height: 0% ;
+
+}
+
+h3::first-letter {
+    font-size: 2.1em;
+    color: #ff0000;
+    text-shadow: 300px;
+}
+
+blockquote {
+    position: absolute;
+    color:darkgrey;
+    text-align: center;
+    font-size: 1.8em; 
+    font-style: italic; 
+    margin-left: 250px; 
+}
+span{
+    font-size: .7em;
+}
