@@ -1,0 +1,138 @@
+Body{
+    background-size:cover;
+    margin: 0%;
+    background-image: url(./assets2/R\ \(2\).jfif);
+
+}
+.flex-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+}
+.card1, .card2, .card3{
+    position:absolute;
+    background-color: wheat;
+    width: 15vw;
+          
+}
+.card1{
+    left:18vw;
+    top:25vw;
+    
+}
+.card2{
+    top: 28vw;
+}
+.card3{
+    right: 18vw;
+    top: 25vw;
+    
+}
+
+
+img{
+    position:relative;
+    width: 4vw;
+    height:4vw;
+    border-radius: 50%;
+     
+}
+.img1{
+    position: relative;
+    left:4vw;
+    top:2vw;  
+   z-index: 1; 
+}
+.img2{
+    position: relative;
+    left:4vw;
+    top:2vw; 
+    z-index: 3;
+}
+.img3{
+    position: relative;
+    left:4vw;
+    top:2vw; 
+    z-index: 4;
+}
+.container, .container1,.container2 {
+    position: relative;
+    padding: 10px;
+    padding-top: 3vw;
+    
+    background-color: pink ;
+    text-align: center;
+    line-height: 1.6;
+   
+
+   
+}
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+p3,p6,p9 {
+    font-size: small;
+    display: block;
+}
+
+
+p2, p5,p8{
+    font-weight: bold;
+    display: block;
+}
+
+.text, .text2{
+    position: relative;
+    padding-left: 1.5vw; 
+    padding-right: 1.5vw;
+    padding-top: 1.5vw; 
+    line-height: 1em;
+    font-size: 1em;
+}
+p1,p7,p4{
+ font-size:.9em ;
+}
+h1{
+    position: relative;
+    text-align: center;
+}
+.info, .info1, .info2{
+    text-align: center;
+    
+}
+.info{
+    position: relative;
+    margin-left: 12vw;
+    margin-top: 2vw;
+   
+    
+}
+.info1{
+    position: relative;
+    margin-top: 2vw;
+    
+    
+}
+.info2{
+    position: relative;
+    margin-right: 13vw;
+    margin-top: 2vw;
+}
+h4{
+    color: blue;
+    font-size:xx-large;
+    font-weight: bold;
+}
+p10,p11,p12{
+    font-variant-caps: all-small-caps;
+    font-size:medium;
+    font-weight: bold;
+}

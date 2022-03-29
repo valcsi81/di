@@ -1,0 +1,712 @@
+*{box-sizing: border-box;}
+Body{
+    position: relative;
+    background-color: darkseagreen;
+    background-size: cover;
+    height: 1000px ;
+    margin:0%;
+   
+
+}
+.container2 {
+    background-color: goldenrod;
+    color: bisque;
+    text-align: center;
+    Padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ 
+}
+
+.card{
+    position: absolute;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: 0.3s;
+    width:230px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-left: 6em;
+    margin-top: 2em;
+}
+.one {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: .9em;
+    margin-top: 0.3em;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 gray;
+}
+
+p1{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 35px;
+    display: block;
+    text-align: center;
+}
+button{
+    position: absolute;
+    display: block;
+    margin-left: 60px;
+    margin-top: 340px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+p2 {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 70px;
+    color: rgb(21, 24, 21);
+}
+p3{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 110px;
+   text-decoration: line-through;
+   color: green; 
+}
+.a-badge {
+    position: absolute;
+    background: rgb(243, 148, 60);
+    height:2rem;
+     top:1rem;
+     left:2rem;
+     width:2rem;
+     text-align: center;
+     line-height: 2rem;
+     font-size: 1rem;
+     font-style: oblique;
+     border-radius: 50%;
+     color:black;
+     border:1px solid rgb(16, 16, 19);
+}
+.b-badge {
+    position: absolute;
+    background: rgb(196, 119, 119);
+    height: 2rem;
+    top: 1rem;
+    left: 11rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    font-style: normal;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+.overlay {
+    position: absolute;
+    top: 13rem;
+    left: 5rem;
+    opacity: 0%;
+    transition: .3s ease;  
+}
+.card:hover .overlay {
+    opacity: 1;
+  }
+  .material-icons:hover{
+      background-color: green;
+  }
+  .material-icons {
+      background-color:bisque;
+  }
+  .over:hover {
+      color: aquamarine;
+      background-color: black;
+  }
+  .card-1{
+    position: absolute;
+    float: left;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: 0.3s;
+    width:230px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-left: 23.36em;
+    margin-top: 2em;
+  }
+  .two{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+  }
+  .c-badge {
+    position: absolute;
+    background: rgb(196, 119, 119);
+    height: 2rem;
+    top: 1rem;
+    left: 11rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    font-style: normal;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+p6{
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 70px;
+    display: block;
+    text-align: center;
+}
+.over-1{
+    position: absolute;
+    display: block;
+    margin-left: 65px;
+    margin-top: 357px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+.card-1:hover {
+    box-shadow: 0 8px 16px 0 gray;
+}
+p7 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 80px;
+    color: rgb(21, 24, 21);
+}
+p8{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 120px;
+   text-decoration: line-through;
+   color: green; 
+}
+.overlay-1 {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    opacity: 0%;
+    transition:.3s ease;  
+}
+.card-1:hover .overlay-1 {
+    opacity: 1;
+  }
+  .over-1:hover {
+    color: aquamarine;
+    background-color: black;
+}
+.card-2{
+        position: absolute;
+        float: left;
+        box-shadow: 0 4px 8px 0 grey;
+        transition: 0.3s;
+        width:230px;
+        height: 400px;
+        background-color: antiquewhite;
+        margin-left: 40.38em;
+        margin-top: 2em;
+      
+}
+.card-2:hover {
+    box-shadow: 0 8px 16px 0 gray;
+}
+.three{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+
+}
+.bage-e{
+    position: absolute;
+    background: rgb(243, 148, 60);
+    height:2rem;
+     top:1rem;
+     left:2rem;
+     width:2rem;
+     text-align: center;
+     line-height: 2rem;
+     font-size: 1rem;
+     font-style: oblique;
+     border-radius: 50%;
+     color:black;
+     border:1px solid rgb(16, 16, 19);
+}   
+.bage-d{
+    position: absolute;
+    background: rgb(196, 119, 119);
+    height: 2rem;
+    top: 1rem;
+    left: 11rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    font-style: normal;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19)
+}
+.overlay-2 {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    opacity: 0%;
+    transition:.3s ease;  
+}
+.overlay-2:hover {
+    opacity: 1;
+  }
+  p12{
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 70px;
+    display: block;
+}
+p14 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 80px;
+    color: rgb(21, 24, 21);
+}
+p13{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 120px;
+   text-decoration: line-through;
+   color: green; 
+}
+.over-2{
+    position: absolute;
+    display: block;
+    margin-left: 65px;
+    margin-top: 357px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+.over-2:hover {
+    color: aquamarine;
+    background-color: black;
+}
+.card-3 {
+    position: absolute;
+    float: left;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: .3s;
+    width:230px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-left: 57.5em;
+    margin-top: 2em;
+}
+
+.card-3:hover {
+    box-shadow: 0 8px 16px 0 gray;
+}
+
+.four{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    
+}
+.bage-f {
+    position: absolute;
+    background: rgb(243, 148, 60);
+    height:2rem;
+    top:1rem;
+    left:2rem;
+    width:2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-style: oblique;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+.overlay-3 {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    opacity: 0%;
+    transition:.3s ease;  
+}
+.overlay-3:hover {
+    opacity: 1;
+  }
+  p16{
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 76px;
+    display: block;
+}
+p17 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 90px;
+    color: rgb(21, 24, 21);
+}
+.over-3{
+    position: absolute;
+    display: block;
+    margin-left: 65px;
+    margin-top: 357px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+.over-3:hover {
+    color: aquamarine;
+    background-color: black;
+}
+.card-4 {
+    position: absolute;
+    float: left;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: .3s;
+    width:230px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-left: 75rem;
+    margin-top: 2rem;
+}
+.card-4:hover {
+    box-shadow: 0 8px 16px 0 gray;
+}
+.five {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+}
+.bage-g {
+    position: absolute;
+    background: rgb(196, 119, 119);
+    height: 2rem;
+    top: 1rem;
+    left: 10rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    font-style: normal;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+.bage-h {
+    position: absolute;
+    background: rgb(243, 148, 60);
+    height:2rem;
+    top:1rem;
+    left:2rem;
+    width:2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-style: oblique;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+.overlay-4 {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    opacity: 0%;
+    transition:.3s ease;  
+}
+.overlay-4:hover {
+    opacity: 1;
+}
+p20{
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 70px;
+    display: block;
+}
+p21 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 80px;
+    color: rgb(21, 24, 21);
+}
+p22{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 120px;
+   text-decoration: line-through;
+   color: green; 
+}
+.over-4{
+    position: absolute;
+    display: block;
+    margin-left: 65px;
+    margin-top: 357px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+.over-4:hover {
+    color: aquamarine;
+    background-color: black;
+}
+.card-5 {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: .3s;
+    width:230px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-left: 6rem;
+    margin-top: 30rem;
+    margin-bottom: 5rem;
+}
+.card-5:hover {
+    box-shadow: 0 8px 16px 0 gray;
+}
+.six {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+}
+
+.bage-i {
+    position: absolute;
+    background: rgb(243, 148, 60);
+    height:2rem;
+    top:1rem;
+    left:2rem;
+    width:2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-style: oblique;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+.overlay-5 {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    opacity: 0%;
+    transition:.3s ease;  
+}
+.overlay-5:hover {
+    opacity: 1;
+}
+p24{
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 70px;
+    display: block;
+}
+p25 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 80px;
+    color: rgb(21, 24, 21);
+}
+
+.over-5 {
+    position: absolute;
+    display: block;
+    margin-left: 65px;
+    margin-top: 357px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+.over-5:hover {
+    color: aquamarine;
+    background-color: black;
+}
+.card-6 {
+    position: absolute;
+    float: left;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: .3s;
+    width:230px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-left: 23rem;
+    margin-top: 30rem;
+}
+.card-6:hover {
+    box-shadow: 0 8px 16px 0 gray;
+}
+.seven {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+}
+.bage-k {
+    position: absolute;
+    background: rgb(196, 119, 119);
+    height: 2rem;
+    top: 1rem;
+    left: 10rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    font-style: normal;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+.bage-j {
+    position: absolute;
+    background: rgb(243, 148, 60);
+    height:2rem;
+    top:1rem;
+    left:2rem;
+    width:2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-style: oblique;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+.overlay-6 {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    opacity: 0%;
+    transition:.3s ease;  
+}
+.overlay-6:hover {
+    opacity: 1;
+}
+p28{
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 70px;
+    display: block;
+}
+p29 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 80px;
+    color: rgb(21, 24, 21);
+}
+p30{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 120px;
+   text-decoration: line-through;
+   color: green; 
+}
+.over-6{
+    position: absolute;
+    display: block;
+    margin-left: 65px;
+    margin-top: 357px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+.over-6:hover {
+    color: aquamarine;
+    background-color: black;
+}
+.card-7 {
+    position: absolute;
+    float: left;
+    box-shadow: 0 4px 8px 0 grey;
+    transition: .3s;
+    width:230px;
+    height: 400px;
+    background-color: antiquewhite;
+    margin-left: 40rem;
+    margin-top: 30rem;
+    margin-bottom: 10rem;
+}
+.card-7:hover {
+    box-shadow: 0 8px 16px 0 gray;
+}
+.eight {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+}
+.bage-l {
+    position: absolute;
+    background: rgb(196, 119, 119);
+    height: 2rem;
+    top: 1rem;
+    left: 12rem;
+    width: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    font-style: normal;
+    border-radius: 50%;
+    color:black;
+    border:1px solid rgb(16, 16, 19);
+}
+   
+.overlay-7 {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 5rem;
+    opacity: 0%;
+    transition:.3s ease;  
+}
+.overlay-7:hover {
+    opacity: 1;
+}
+p32{
+    position: absolute;
+    margin-top: 312px;
+    margin-left: 70px;
+    display: block;
+}
+p33 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 80px;
+    color: rgb(21, 24, 21);
+}
+p34{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 120px;
+   text-decoration: line-through;
+   color: green; 
+}
+.over-7{
+    position: absolute;
+    display: block;
+    margin-left: 65px;
+    margin-top: 357px;
+    padding: 5px;
+    font-variant: small-caps;
+}
+.over-7:hover {
+    color: aquamarine;
+    background-color: black;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.to{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    bottom: 50px;
+    left: 30px;
+    border-radius: 50%;
+    background-color: black;
+    
