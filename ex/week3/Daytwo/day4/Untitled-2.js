@@ -59,13 +59,31 @@ if(person % 2 == 0){
 }
 */
 //Exercise 4: Group Chat
-
+/*
 let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
 
 if(users=[]){
     console.log( "no one is online")
 }else{
-    user= "Lea123" ||"Princess45"||"cat&doglovers"||"helooo@000"
+    users= "Lea123" ||"Princess45"||"cat&doglovers"||"helooo@000"
 
     console.log(users)
 }
+*/
+let sentence='The movie is not that bad, I like it'
+let worldnot=sentence.substring(12,17)
+wordBad=sentence.substring(22,26)
+let result= (sentence.replace(sentence.substring(12,26), "good"));
+ 
+console.log(result)
+
+if(sentence.substring(12,17) < console.log(sentence.substring(12,26))){ 
+    let result= (sentence.replace(sentence.substring(12,26), "good"));
+}
+    console.log(result)
+    {
+        if(sentence.substring(12,17) < console.log(sentence.substring(12,26)))    
+if(sentence.substring(12,17) <! console.log(sentence.substring(12,26)))
+            console.log(sentence)
+        }
+
