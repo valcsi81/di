@@ -69,7 +69,7 @@ if(users=[]){
 
     console.log(users)
 }
-*/
+
 let sentence='The movie is not that bad, I like it'
 let worldnot=sentence.substring(12,17)
 wordBad=sentence.substring(22,26)
@@ -87,3 +87,7 @@ if(sentence.substring(12,17) <! console.log(sentence.substring(12,26)))
             console.log(sentence)
         }
 
+*/
+
+let imputnumber=number(prompt("choose number"));
+console.log(imputnumber==0)
